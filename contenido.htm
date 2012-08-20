@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<!--
+* Copyright 2010-2011 Research In Motion Limited.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+-->
+
+<div data-bb-type="screen" data-bb-effect="fade">
+	<div data-bb-type="title" data-bb-caption="ccb" data-bb-back-caption="Back" ></div>
+	<script id="dataOnLoadJS" src="js/dataOnLoad.js"></script>	
+	<script id="actionBarJS" src="js/actionBar.js"></script>
+	
+
+	<div>
+	    <center>
+	        <span id="contenedorNumContenido">1</span>/<span id="contenedorNumMaxContenido">0</span>
+	    </center>                
+	</div>
+
+	<div id="dataContent" style="margin:15px;color:Gray;">
+		<p align="center">
+			LOADING...	        
+		</p>
+	</div>
+
+	<!--<div data-bb-type="button" data-bb-style="stretch" onclick="bb.popScreen()">Press me to go Back</div>
+	<div data-bb-type="button" data-bb-style="stretch" onclick="backContent();">atras</div>
+	<div data-bb-type="button" data-bb-style="stretch" onclick="nextContent();">Siguiente</div>-->
+
+	<div data-bb-type="action-bar">
+		<div data-bb-type="action" data-bb-style="button"  data-bb-img="images/actionBar/cog_dark_theme.png" onclick="bb.popScreen()">Menú</div>
+		<div data-bb-type="action" data-bb-style="button"  data-bb-img="images/actionBar/cog_dark_theme.png" onclick="backContent();">Atras</div>
+		<div data-bb-type="action" data-bb-style="button"  data-bb-img="images/actionBar/cog_dark_theme.png" onclick="nextContent();">Siguiente</div>
+	</div>
+
+</div>

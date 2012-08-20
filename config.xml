@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:rim="http://www.blackberry.com/ns/widgets" version="1.0.0.25">
+	<name>Chistes Cortos</name>
+	<author>Marvin Baptista</author>
+	<rim:navigation mode="focus" />
+    <feature id="blackberry.ui.dialog" />
+	<content src="index.htm" />
+    <icon rim:hover="false" src="/images/icon.png"/>
+	  <rim:loadingScreen backgroundImage="images\background.png" foregroundImage="images\hippo.png" onFirstLaunch="true">
+		<rim:transitionEffect type="fadeIn" />
+	  </rim:loadingScreen>	
+    <feature id="blackberry.ui.dialog" required="true" version="1.0.25"/>
+	<feature id="blackberry.ui.menu" />
+	<feature id="blackberry.invoke" required="true" version="1.0.0.0"/>
+	<access uri="http://appworld.blackberry.com/webstore/content/109088/?lang=en" subdomains="true" />
+</widget>
